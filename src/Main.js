@@ -1,4 +1,4 @@
-// CombinedComponent.js
+
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import Nav from './components/Nav';
