@@ -5,7 +5,7 @@ import './App.css';
 import Dictionary from './components/Dictionary';
 import Spinner from './components/Spinner';
 import Nav from './components/Nav';
-import { BrowserRouter } from 'react-router-dom';
+import { HashRouter } from 'react-router-dom';
 import { Routes, Route } from 'react-router-dom';
 import Book from './components/Book';
 import Summ from './components/Summary';
@@ -23,7 +23,7 @@ function App() {
   }, []);
 
   return (
-    <BrowserRouter >
+    <HashRouter>
       <div className="App">
         <header className="App-header">
           <Routes>
@@ -35,7 +35,7 @@ function App() {
           </Routes>
         </header>
       </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
